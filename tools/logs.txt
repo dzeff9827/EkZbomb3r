@@ -1,0 +1,196 @@
+DATE - 2022-09-16 16:10:21.554399
+Service - apteka.ru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:22.105055
+Service - magnit
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:22.438850
+Service - telegram
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:22.688696
+Service - citi_link
+Status_code - 429
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:23.242353
+Service - akbarsa
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:24.247730
+Service - yota
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:25.511946
+Service - b_apteka
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:26.113573
+Service - mir
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:26.601270
+Service - pochtabank
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:26.847118
+Service - mt_free
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:27.195902
+Service - megafon.tv
+Status_code - 429
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:27.601650
+Service - moezdorovie
+Status_code - 404
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:27.786536
+Service - totopizza
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:28.244252
+Service - zdesapteka
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:29.403533
+Service - stockmann
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:30.027147
+Service - SberUslugi
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:30.359941
+Service - victoria
+Status_code - 500
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:30.722716
+Service - sunlight
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:31.063503
+Service - ok.ru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:31.580184
+Service - citystar
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:32.280750
+Service - beerlogapizza
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:32.330719
+Service - dodopizza
+Status_code - Unknown
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:32.567572
+Service - dominopizza
+Status_code - 404
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:33.165201
+Service - pizzamia
+Status_code - 422
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:33.403054
+Service - lentaru
+Status_code - 404
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:33.561956
+Service - sipnetru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:33.991689
+Service - wildberries
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2022-09-16 16:10:34.385444
+Service - bandeatosru
+Status_code - 200
+ERROR:
+There is not
+
+
