@@ -76,16 +76,16 @@ def banner():
 
 	banner = colored("""
 	
-	bomber EkZoRtSiSt
+	EkZbOmBeR
 
 	""", "red")
 
-	bombbanner = colored("	               [", "blue")+colored("sms bomber", "cyan")+colored("]\n", "blue")
+	bombbanner = colored("	               [", "red")+colored("sms bomber", "magenta")+colored("]\n", "red")
 
-	info = " "*13+colored("[", "blue")+"Developers      :"+colored("ezk", "red")
-	info_2 = " "*13+colored("[", "blue")+"Version         :"+colored(ver, "red")
-	info_3 = " "*13+colored("[", "blue")+"Telegram Channel:"+colored("@EkZoRtSiSt6", "cyan")+colored("  Подпишись!", "red")
-	info_4 = " "*13+colored("[", "blue")+"YouTube Channel :"+colored("https://www.youtube.com/channel/UC_QZqx9tLSc1dkYpdGvhO-Q", "cyan")+colored("  Подпишись!", "red")+"\n"
+	info = " "*13+colored("[", "red")+"Developers      :"+colored("EkZoRtSiSt", "magenta")
+	info_2 = " "*13+colored("[", "red")+"Version         :"+colored(ver, "magenta")
+	info_3 = " "*13+colored("[", "red")+"Telegram Channel:"+colored("@EkZoRtSiSt6", "magenta")+colored("  Подпишись!", "red")
+	info_4 = " "*13+colored("[", "red")+"YouTube Channel :"+colored("https://www.youtube.com/channel/UC_QZqx9tLSc1dkYpdGvhO-Q", "magenta")+colored("  Подпишись!", "red")+"\n"
 
 	print(banner)
 	print(bombbanner)
@@ -95,10 +95,10 @@ def banner():
 	print(info_4)
 
 def banner_tools():
-	print(colored("[1]", "red"), colored("бомбим", "yellow"))
-	print(colored("[2]", "red"), colored("FAQ Про прокси", "yellow"))
-	print(colored("[3]", "red"), colored("краткое руководство проблем", "yellow"))
-	print(colored("[4]", "red"), colored("отказ от ответственности", "yellow"))
+	print(colored("[1]", "red"), colored("бомбим", "magenta"))
+	print(colored("[2]", "red"), colored("FAQ Про прокси", "magenta"))
+	print(colored("[3]", "red"), colored("краткое руководство проблем", "magenta"))
+	print(colored("[4]", "red"), colored("отказ от ответственности", "magenta"))
 
 	print(colored("\n[99]", "red"), colored("информация", "cyan"))
 	print(colored("\n[0] выход", "red"))
@@ -106,18 +106,18 @@ def banner_tools():
 def quick_guide():
 	clear()
 	print("")
-	print(colored("В нашем бомбере спам может постепенно ухудшаться из-за того что на один и тот же номер поступает очень много запросов на отправку смс.", "green"))
-	print(colored("Не пытайтесь оставить спам на всю ночь на один и тот же номер, вы просто заставите сервисы заблокировать данный номер у себя в базе и никакие прокси тут уже не помогут.", "green"))
-	print(colored("Достаточно 2-3 круга на один номер раз в сутки чтобы доставить не малое количество смс на один номер.", "green"))
-	print(colored("Не будьте жадны и слишком мстительны, тогда вы сможете отправлять смс на один и тот же номер постоянно.", "green"))
+	print(colored("В нашем бомбере спам может постепенно ухудшаться из-за того что на один и тот же номер поступает очень много запросов на отправку смс.", "red"))
+	print(colored("Не пытайтесь оставить спам на всю ночь на один и тот же номер, вы просто заставите сервисы заблокировать данный номер у себя в базе и никакие прокси тут уже не помогут.", "red"))
+	print(colored("Достаточно 2-3 круга на один номер раз в сутки чтобы доставить не малое количество смс на один номер.", "red"))
+	print(colored("Не будьте жадны и слишком мстительны, тогда вы сможете отправлять смс на один и тот же номер постоянно.", "red"))
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
 
 def disclaimer():
 	clear()
 	print("")
-	print(colored("Разработчик бомбера не несет ответственность за доставленный моральный или физический ущерб вашей жертве.", "green"))
-	print(colored("Пользуясь данной программой вы автоматически соглашаетесь на это и берете всю ответственность на себя", "green"))
+	print(colored("Разработчик бомбера не несет ответственность за доставленный моральный или физический ущерб вашей жертве.", "red"))
+	print(colored("Пользуясь данной программой вы автоматически соглашаетесь на это и берете всю ответственность на себя", "red"))
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
 
@@ -125,21 +125,21 @@ def faq_proxy():
 	clear()
 	print("")
 	print(colored("Почему с прокси такой медленный спам и такая частая проверка?", "cyan"))
-	print(colored("Наш парсер берет прокси с общедоступных сервисов, конечно не только мы так делаем и соотвественно не только мы пользуемся этими прокси.", "green"))
-	print(colored("Также на данных сервисах очень мало довольно быстрых и анонимных прокси что позволяло бы улучшить спам с ними.", "green"))
-	print(colored("Частая проверка возникает из-за не стабильности этих прокси, часто они просто перестают работать и программа берет следующий из списка.", "green"))
+	print(colored("Наш парсер берет прокси с общедоступных сервисов, конечно не только мы так делаем и соотвественно не только мы пользуемся этими прокси.", "red"))
+	print(colored("Также на данных сервисах очень мало довольно быстрых и анонимных прокси что позволяло бы улучшить спам с ними.", "red"))
+	print(colored("Частая проверка возникает из-за не стабильности этих прокси, часто они просто перестают работать и программа берет следующий из списка.", "red"))
 	print("")
 	print(colored("Почему нельзя просто брать прокси любой страны а не только номера которого ввели?", "cyan"))
-	print(colored("Не получиться использовать допустим канадские прокси с российскими сервисами с доменом .ru", "green"))
-	print(colored("Если на сайте указан домен данной страны то и прокси должны быть этой же страны.", "green"))
-	print(colored("Сервисы с доменом своей страны просто не пустят наш запрос с прокси иной страны.", "green"))
+	print(colored("Не получиться использовать допустим канадские прокси с российскими сервисами с доменом .ru", "red"))
+	print(colored("Если на сайте указан домен данной страны то и прокси должны быть этой же страны.", "red"))
+	print(colored("Сервисы с доменом своей страны просто не пустят наш запрос с прокси иной страны.", "red"))
 	print("")
 	print(colored("Почему нельзя просто подключить больше сервисов для прокси?", "cyan"))
-	print(colored("90% Сервисов с бесплатными прокси просто воруют их друг у друга и из-за этого просто не получиться получить больший список.", "green"))
-	print(colored("Мы стараемся искать хорошие сервисы с бесплатными прокси которые не воруют друг у другу и удобны в парсинге либо имеют свой API.", "green"))
+	print(colored("90% Сервисов с бесплатными прокси просто воруют их друг у друга и из-за этого просто не получиться получить больший список.", "red"))
+	print(colored("Мы стараемся искать хорошие сервисы с бесплатными прокси которые не воруют друг у другу и удобны в парсинге либо имеют свой API.", "red"))
 	print("")
 	print("")
-	print(colored("Советуем вам использовать ваши собственные покупные прокси если хотите сократить блокировку вашего IP у сервисов и иметь хорошую скорость спама", "green"))
+	print(colored("Советуем вам использовать ваши собственные покупные прокси если хотите сократить блокировку вашего IP у сервисов и иметь хорошую скорость спама", "red"))
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
 
@@ -188,7 +188,7 @@ def clear_logs():
 
 def banner_info():
 	clear()
-	print(colored("Телеграм Канал", "cyan")+":", colored("t.me/bomberEkZoRtSiSt", "cyan"))
+	print(colored("Телеграм Канал", "red")+":", colored("t.me/bomberEkZoRtSiSt", "magenta"))
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
 
@@ -214,7 +214,7 @@ def start_input():
 		print("")
 		print(colored("[1]", "red"), colored("Россия +7", "blue"))
 		print("")
-		ct = input(colored("выбери страну: ", "yellow"))
+		ct = input(colored("выбери страну: ", "red"))
 		if ct == "1":
 			break
 		elif ct == "":
@@ -460,7 +460,7 @@ def start(number, country, proxy_=None):
 	print("")
 	print(colored("Остановка спама", "yellow"))
 	print("├"+colored("Termux", "magenta")+":", colored("На встроенной клавиатуре от Termux выбрать CTRL затем C", "cyan"))
-	print("└"+colored("Windows", "blue")+":", colored("Комбинация клавишь Ctrl+C или Ctrl+Z", "cyan"))
+	print("└"+colored("Windows", "magenta")+":", colored("Комбинация клавишь Ctrl+C или Ctrl+Z", "cyan"))
 	an=["10", "9", "8", "7", "6", "5", "4", "3", "2", "1"]
 	for i in an:
 		print(colored("Спам начнется через ", "red")+colored(i, "green")+" ",sep=' ',end='\r')
