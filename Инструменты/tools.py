@@ -121,16 +121,6 @@ def disclaimer():
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
 
-def donate():
-	clear()
-	print("")
-	print(colored("Ваша поддержа еще больше мотивирует меня выпускать обновления!", "green"))
-	print("")
-	print(colored("QIWI", "yellow"))
-	print("└"+colored("", "cyan"), colored("Перевод по никнейму", "green"))
-	print("\nНажмите Enter чтобы вернуться назад")
-	input()
-
 def faq_proxy():
 	clear()
 	print("")
@@ -153,31 +143,7 @@ def faq_proxy():
 	print("\nНажмите Enter чтобы вернуться назад")
 	input()
 
-def github():
-	opengit = webbrowser.open("https://github.com/AvenCores/HZF-ORION-Bomber")
-	if opengit:
-		clear()
-		print(colored("Форк страница проекта была успешно открыта!", "green"))
-		print("\nНажмите Enter чтобы вернуться назад")
-		input()
-	else:
-		clear()
-		print(colored("Форк страница проекта не была успешно открыта, т.к не получилось открыть бразуер!", "red"))
-		print("\nНажмите Enter чтобы вернуться назад")
-		input()
 
-def originalgithub():
-	opengit = webbrowser.open("https://github.com/Lucky1376/ORION-Bomber")
-	if opengit:
-		clear()
-		print(colored("Официальная страница проекта была успешно открыта!", "green"))
-		print("\nНажмите Enter чтобы вернуться назад")
-		input()
-	else:
-		clear()
-		print(colored("Официальная страница проекта не была успешно открыта, т.к не получилось открыть бразуер!", "red"))
-		print("\nНажмите Enter чтобы вернуться назад")
-		input()
 
 def inst_logs():
 	# Checking File System Access
@@ -364,69 +330,6 @@ def CFU():
 		clear()
 		print(colored("[!]", "red"), colored("Ваше устройство не подключено к интернету или интернет слишком слабый!", "magenta"))
 		exit()
-	clear()
-	if in_d:
-		print(colored("Проверяем обновление...", "green"))
-		time.sleep(0.7)
-		result = r.get("https://raw.githubusercontent.com/AvenCores/HZF-ORION-Bomber/master/tools/version.txt")
-		last_ver = result.content.decode("utf-8")
-		a = open("tools/version.txt", "r")
-		current_ver = a.read()
-		a.close()
-		if last_ver != current_ver and platform != "win32":
-			clear()
-			print(colored("[!]", "magenta"), colored("Найдено новое обновление", "green"), colored(last_ver, "cyan")+colored("!", "green"))
-			print("")
-			print(colored("Желаете ли вы обновиться до актуальной версии?", "yellow"))
-			print("")
-			print(colored("[1]", "red"), colored("Да", "green"))
-			print(colored("[2]", "red"), colored("Нет", "red"))
-			print("")
-			while True:
-				how = input(colored("~# ", "red"))
-				if how == "1":
-					clear()
-					print(colored("Устанавливаю архив...", "green"))
-					if platform == "linux" or platform == "linux2" or platform == "unix":
-						os.chdir("/data/data/com.termux/files/home")
-						os.system("rm -rf HZF-ORION-Bomber")
-						
-						result = r.get("https://github.com/AvenCores/HZF-ORION-Bomber/archive/refs/heads/master.zip")
-						
-						a = open("HZF-ORION-Bomber.zip", "wb")
-						a.write(result.content)
-						a.close()
-						
-						print(colored("Распаковка архива...", "green"))
-
-						fantasy_zip = zipfile.ZipFile("ORION-Bomber.zip")
-						fantasy_zip.extractall("ORION-Bomber")
-						fantasy_zip.close()
-						os.system("rm -rf HZF-ORION-Bomber.zip")
-
-						os.chdir("HZF-ORION-Bomber")
-						os.chdir("HZF-ORION-Bomber-master")
-						 
-						get_files = os.listdir(os.getcwd())
-						 
-						for g in get_files:
-							shutil.move(g, "/data/data/com.termux/files/home/HZF-ORION-Bomber")
-						os.chdir("/data/data/com.termux/files/home/HZF-ORION-Bomber")
-						os.system("rm -rf HZF-ORION-Bomber-master")
-
-						print(colored("Обновление прошло успешно, запускаю HZF-ORION-Bomber...", "green"))
-						time.sleep(1.5)
-
-						os.system("python Install.py")
-						os.system("python HZF-ORION-Bomber.py")
-						exit()
-					elif platform == "win32":
-						pass
-				elif how == "2":
-					clear()
-					break
-		else:
-			clear()
 
 class Logs:
 	def __init__(self):
@@ -446,30 +349,6 @@ class Logs:
 		file_error.write(f"DATE - {date}\nERROR:\n{error}")
 		file_error.close()
 
-def check_files():
-	print(colored("Проверка файлов...", "green"))
-	time.sleep(1)
-	files = os.listdir()
-	list_ = ["EkZbomber.py", "LICENSE", "README.md", "tools","Install.py"]
-	list_2 = ["proxy.py", "sender.py", "services.json", "tools.py", "version.txt", "logs.txt", "error_logs.txt"]
-
-	for f in list_:
-		if f not in files:
-			clear()
-			print(colored("Наша программа не нашла некоторые наши файлы", "red"))
-			print(colored("Пожалуйста установите программу заново предварительно удалив папку с этой!\n", "green"))
-			exit()
-	last_dir = os.getcwd()
-	os.chdir("tools")
-	files = os.listdir()
-	for f in list_2:
-		if f not in files:
-			clear()
-			print(colored("Наша программа не нашла некоторые наши файлы", "red"))
-			print(colored("Пожалуйста установите программу заново предварительно удалив папку с этой!\n", "green"))
-			os.chdir(last_dir)
-			exit()
-	os.chdir(last_dir)
 
 def FormattingResponse(status_code, service):
 	date = datetime.now()
