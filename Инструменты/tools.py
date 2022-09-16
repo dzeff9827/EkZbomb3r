@@ -450,7 +450,7 @@ def check_files():
 	print(colored("Проверка файлов...", "green"))
 	time.sleep(1)
 	files = os.listdir()
-	list_ = ["HZF-ORION-Bomber.py", "LICENSE", "README.md", "tools","Install.py"]
+	list_ = ["EkZbomber.py", "LICENSE", "README.md", "tools","Install.py"]
 	list_2 = ["proxy.py", "sender.py", "services.json", "tools.py", "version.txt", "logs.txt", "error_logs.txt"]
 
 	for f in list_:
