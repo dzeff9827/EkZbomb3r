@@ -6,7 +6,6 @@ import requests
 tools.clear()
 tools.ICC()
 tools.clear()
-tools.check_files()
 tools.CFU()
 
 while True:
