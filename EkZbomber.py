@@ -1,4 +1,4 @@
-from tools import tool_2
+from tools import tools
 from tools import proxy
 from termcolor import colored
 import requests
