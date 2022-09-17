@@ -206,7 +206,7 @@ def start_input():
 		print("")
 		print(colored("[99] Отмена", "red"))
 		print("")
-		numb = input(colored("Введите номер без кода страны "+country_code[ct]+" ", "green"))
+		numb = input(colored("Введите номер без кода страны "+country_code[ct]+" ", "red"))
 		if number_ckeck(numb):
 			break
 		elif numb == "99":
@@ -216,8 +216,8 @@ def start_input():
 		print("")
 		print(colored("[99] Отмена", "red"))
 		print("")
-		print(colored("[1]", "red"), colored("Да", "green"))
-		print(colored("[2]", "red"), colored("Нет", "red"))
+		print(colored("[1]", "red"), colored("Да", "magenta"))
+		print(colored("[2]", "red"), colored("Нет", "magenta"))
 		print("")
 		pr = input(colored("Использовать прокси?: ", "green"))
 		if pr in ["1", "2"]:
