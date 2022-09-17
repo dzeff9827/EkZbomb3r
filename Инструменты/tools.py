@@ -69,31 +69,11 @@ def clear():
 	else:
 		os.system("clear")
 
-def banner():
-	a = open("tools/version.txt", "r")
-	ver = a.read().split("\n")[0]
-	a.close()
 
-	banner = colored("""
-	
-	EkZbOmBeR
-
-	""", "red")
 
 	bombbanner = colored("	               [", "red")+colored("sms bomber", "magenta")+colored("]\n", "red")
 
-	info = " "*13+colored("[", "red")+"Developers      :"+colored("EkZoRtSiSt", "magenta")
-	info_2 = " "*13+colored("[", "red")+"Version         :"+colored(ver, "magenta")
-	info_3 = " "*13+colored("[", "red")+"Telegram Channel:"+colored("@EkZoRtSiSt6", "magenta")+colored("  Подпишись!", "red")
-	info_4 = " "*13+colored("[", "red")+"YouTube Channel :"+colored("https://www.youtube.com/channel/UC_QZqx9tLSc1dkYpdGvhO-Q", "magenta")+colored("  Подпишись!", "red")+"\n"
-
-	print(banner)
-	print(bombbanner)
-	print(info)
-	print(info_2)
-	print(info_3)
-	print(info_4)
-
+	
 def banner_tools():
 	print(colored("[1]", "red"), colored("бомбим", "magenta"))
 	print(colored("[2]", "red"), colored("FAQ Про прокси", "magenta"))
