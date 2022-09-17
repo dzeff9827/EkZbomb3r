@@ -10,7 +10,6 @@ tools.CFU()
 
 while True:
 	tools.clear()
-	tools.banner()
 	tools.banner_tools()
 
 	tool = input(colored("\nEkZoRtSiSt BOMBER ##>> ", "red"))
