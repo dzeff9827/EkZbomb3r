@@ -4,7 +4,6 @@ from termcolor import colored
 import requests
 
 tools.clear()
-tools.ICC()
 tools.clear()
 tools.CFU()
 
