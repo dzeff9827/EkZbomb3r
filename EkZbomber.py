@@ -5,7 +5,6 @@ import requests
 
 tools.clear()
 tools.clear()
-tools.CFU()
 
 while True:
 	tools.clear()
