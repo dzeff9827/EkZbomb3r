@@ -295,7 +295,7 @@ def start_input():
 
 def ICC():
 	try:
-		print(colored("Проверка интернет соединения...", "green"))
+		print(colored("Проверка интернет соединения...", "magenta"))
 		r.get("https://example.org", timeout=5)
 		clear()
 	except Exception as es:
@@ -695,11 +695,8 @@ def ip():
 	print(colored("----------", "red"))
 	main()
 	print("\nНажмите Enter чтобы вернуть назад")
-	try:
-		input()
-	except KeyboardInterrupt:
-		return
-	return
+	input()
+
 
 def dos():
 	clear()
