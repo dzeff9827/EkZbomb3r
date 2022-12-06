@@ -295,7 +295,7 @@ def start_input():
 
 def ICC():
 	try:
-		print(colored("Проверка интернет соединения...", "magenta"))
+		print(colored("проверка инета...", "magenta"))
 		r.get("https://example.org", timeout=5)
 		clear()
 	except Exception as es:
@@ -416,7 +416,7 @@ def start(number, country, proxy_=None):
 					print(colored("[2]", "red"), colored("Нет", "red"))
 					print("")
 					while True:
-						how = input(colored("Начать спам без прокси? ", "green"))
+						how = input(colored("Начать спам без прокси? ", "magenta"))
 						if how == "2":
 							return
 						elif how == "1":
