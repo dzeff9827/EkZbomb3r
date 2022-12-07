@@ -78,13 +78,13 @@ def clear():
 
 	
 def banner_tools():
-	print(colored("1.", "red"), colored("bomber", "magenta"))
-	print(colored("2.", "red"), colored("FAQ Про прокси", "magenta"))
-	print(colored("3.", "red"), colored("краткое руководство проблем", "magenta"))
-	print(colored("4.", "red"), colored("отказ от ответственности", "magenta"))
+	print(colored("1", "red"), colored("bomber", "magenta"))
+	print(colored("2", "red"), colored("FAQ Про прокси", "magenta"))
+	print(colored("3", "red"), colored("краткое руководство проблем", "magenta"))
+	print(colored("4", "red"), colored("отказ от ответственности", "magenta"))
 
-	print(colored("\n[99]", "red"), colored("информация", "cyan"))
-	print(colored("\n[0] выход", "red"))
+	print(colored("\n99", "red"), colored("информация", "cyan"))
+	print(colored("\n0 выход", "red"))
 
 def quick_guide():
 	clear()
