@@ -23,14 +23,10 @@ while True:
 	elif tool == "99":
 		tools.banner_info()
 	elif tool == "2":
-		tools.ip()
-	elif tool == "3":
-		tools.dos()
-	elif tool == "4":
 		tools.faq_proxy()
-	elif tool == "5":
+	elif tool == "3":
 		tools.quick_guide()
-	elif tool == "6":
+	elif tool == "4":
 		tools.disclaimer()
 	elif tool.lower() == "clear logs":
 		tools.clear_logs()
