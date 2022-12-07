@@ -78,12 +78,10 @@ def clear():
 
 	
 def banner_tools():
-	print(colored("[1]", "red"), colored("Бомбер", "magenta"))
-	print(colored("[2]", "red"), colored("Пробив по Ip", "magenta"))
-	print(colored("[3]", "red"), colored("Ддос по Ip", "magenta"))
-	print(colored("[4]", "red"), colored("FAQ Про прокси", "magenta"))
-	print(colored("[5]", "red"), colored("краткое руководство проблем", "magenta"))
-	print(colored("[6]", "red"), colored("отказ от ответственности", "magenta"))
+	print(colored("[1]", "red"), colored("bomber", "magenta"))
+	print(colored("[2]", "red"), colored("FAQ Про прокси", "magenta"))
+	print(colored("[3]", "red"), colored("краткое руководство проблем", "magenta"))
+	print(colored("[4]", "red"), colored("отказ от ответственности", "magenta"))
 
 	print(colored("\n[99]", "red"), colored("информация", "cyan"))
 	print(colored("\n[0] выход", "red"))
@@ -295,7 +293,7 @@ def start_input():
 
 def ICC():
 	try:
-		print(colored("проверка инета...", "magenta"))
+		print(colored("Проверка...", "magenta"))
 		r.get("https://example.org", timeout=5)
 		clear()
 	except Exception as es:
