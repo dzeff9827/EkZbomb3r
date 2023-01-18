@@ -205,7 +205,7 @@ def start_input():
 	while True:
 		clear()
 		print("")
-		print(colored("[0] Отмена", "red"))
+		print(colored("[99] Отмена", "red"))
 		print("")
 		print(colored("[1]", "red"), colored("Беларусь +375", "magenta"))
 		print(colored("[2]", "red"), colored("Россия +7", "magenta"))
@@ -215,22 +215,22 @@ def start_input():
 			break
 		elif ct == "1":
 			break
-		elif ct == "0":
+		elif ct == "99":
 			return 0, 0, 0
 	while True:
 		clear()
 		print("")
-		print(colored("[0] Отмена", "red"))
+		print(colored("[99] Отмена", "red"))
 		print("")
 		numb = input(colored("Введите номер без кода страны "+country_code[ct]+" ", "red"))
 		if number_ckeck(numb):
 			break
-		elif numb == "0":
+		elif numb == "99":
 			return 0, 0, 0
 	while True:
 		clear()
 		print("")
-		print(colored("[0] Отмена", "red"))
+		print(colored("[99] Отмена", "red"))
 		print("")
 		print(colored("[1]", "red"), colored("Да", "magenta"))
 		print(colored("[2]", "red"), colored("Нет", "magenta"))
@@ -242,13 +242,13 @@ def start_input():
 			else:
 				pr = None
 			break
-		elif pr == "0":
+		elif pr == "99":
 			return 0, 0, 0
 	if pr != None:
 		while True:
 			clear()
 			print("")
-			print(colored("[0] Отмена", "red"))
+			print(colored("[99] Отмена", "red"))
 			print("")
 			print(colored("[1]", "red"), colored("Общедоступный прокси", "magenta"))
 			print(colored("Общедоступный прокси используют все пользователи EkZbomb3r", "cyan"))
@@ -261,14 +261,14 @@ def start_input():
 				if who_pr == "2":
 					clear()
 					print("")
-					print(colored("[0] Отмена", "red"))
+					print(colored("[99] Отмена", "red"))
 					print("")
 					print(colored("Введите Ip и Port и логин и пароль если прокси частный", "magenta"))
 					print("└"+colored("Пример:\n123.45.678.910:8080\n123.45.678.910:8080:LOGIN:PASSWORD", "magenta"))
 					print("")
 					new_pr = input(colored("~# ", "red"))
 					
-					if new_pr == "0":
+					if new_pr == "99":
 						return 0, 0, 0
 					elif len(new_pr.split(":")) < 3:
 						# Shared Proxy Check
@@ -306,7 +306,7 @@ def start_input():
 
 def ICC():
 	try:
-		anim_text("Проверка интернет соединения...", speed=0.030, color="magenta")
+		anim_text("Проверка интернет соединения...", speed=0.015, color="magenta")
 		r.get("https://example.org", timeout=5)
 		clear()
 	except Exception as es:
@@ -326,7 +326,7 @@ def CFU():
 		exit()
 	clear()
 	if in_d:
-		anim_text("Проверяем обновления...", speed=0.050, color="magenta")
+		anim_text("Проверяем обновления...", speed=0.015, color="magenta")
 		result = r.get("https://raw.githubusercontent.com/dzeff9827/EkZbomb3r/master/tools/version.txt")
 		last_ver = result.content.decode("utf-8")
 		a = open("tools/version.txt", "r")
@@ -334,18 +334,12 @@ def CFU():
 		a.close()
 		if last_ver != current_ver:
 			clear()
-			print(colored("[!]", "magenta"), colored("Найдено новое обновление", "magenta"), colored(last_ver, "cyan")+colored("!", "magenta"))
-			print("")
-			print(colored("Желаете ли вы обновиться до актуальной версии?", "red"))
-			print("")
-			print(colored("[1]", "red"), colored("Да", "magenta"))
-			print(colored("[2]", "red"), colored("Нет", "magenta"))
-			print("")
+			print(colored("Найдено новое обновление", "magenta"), colored(last_ver, "red"))
 			while True:
-				how = input(colored("EkZbomb3r>>", "red"))
-				if how == "1":
+				how = input("")
+				if how == "":
 					webbrowser.open("https://github.com/dzeff9827/EkZbomb3r")
-				elif how == "2":
+				elif how == "":
 					clear()
 					break
 		else:
