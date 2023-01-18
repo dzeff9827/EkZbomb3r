@@ -327,7 +327,7 @@ def CFU():
 	clear()
 	if in_d:
 		anim_text("Проверяем обновления...", speed=0.050, color="magenta")
-		result = r.get("https://raw.githubusercontent.com/dzeff9827/EkZbomb3r/master/tools/version.txt")
+		result = r.get("https://raw.githubusercontent.com/dzeff9827/EkZbomb3r/master/version.txt")
 		last_ver = result.content.decode("utf-8")
 		a = open("tools/version.txt", "r")
 		current_ver = a.read()
@@ -372,7 +372,7 @@ class Logs:
 def check_files():
 	anim_text("Проверка файлов...", speed=0.050, color="magenta")
 	files = os.listdir()
-	list_ = ["EkZbomber.py", "LICENSE", "README.md", "tools","Install.py"]
+	list_ = ["EkZbomber.py", "LICENSE", "tools","Install.py"]
 	list_2 = ["proxy.py", "sender.py", "services.json", "tools.py", "version.txt", "logs.txt", "error_logs.txt"]
 
 	for f in list_:
