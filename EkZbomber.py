@@ -16,7 +16,7 @@ while True:
 	if tool == "1":
 		numb, ct, pr = tools.start_input()
 		if numb != 0:
-			tools.start(numb, ct, proxy=pr)
+			tools.start(numb, ct, proxy_=pr)
 	elif tool == "0":
 		tools.clear()
 		break
