@@ -1,195 +1,839 @@
-DATE - 2022-09-16 16:10:21.554399
+DATE - 2023-01-18 15:47:56.907589
 Service - apteka.ru
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:22.105055
+DATE - 2023-01-18 15:47:57.387786
 Service - magnit
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:22.438850
+DATE - 2023-01-18 15:47:57.673692
 Service - telegram
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:22.688696
+DATE - 2023-01-18 15:47:58.227274
 Service - citi_link
-Status_code - 429
+Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:23.242353
+DATE - 2023-01-18 15:47:58.804500
 Service - akbarsa
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:24.247730
+DATE - 2023-01-18 15:47:59.653654
 Service - yota
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:25.511946
+DATE - 2023-01-18 15:47:59.828146
 Service - b_apteka
-Status_code - 200
+Status_code - 500
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:26.113573
+DATE - 2023-01-18 15:48:00.186990
 Service - mir
-Status_code - 200
+Status_code - 400
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:26.601270
+DATE - 2023-01-18 15:48:00.457300
 Service - pochtabank
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:26.847118
+DATE - 2023-01-18 15:48:00.692538
 Service - mt_free
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:27.195902
+DATE - 2023-01-18 15:48:01.007438
 Service - megafon.tv
 Status_code - 429
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:27.601650
+DATE - 2023-01-18 15:48:11.149707
 Service - moezdorovie
-Status_code - 404
+Status_code - Unknown
 ERROR:
-There is not
+False
 
 
-DATE - 2022-09-16 16:10:27.786536
+DATE - 2023-01-18 15:48:11.455634
 Service - totopizza
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:28.244252
+DATE - 2023-01-18 15:48:11.896363
 Service - zdesapteka
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:29.403533
+DATE - 2023-01-18 15:48:14.042091
 Service - stockmann
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:30.027147
+DATE - 2023-01-18 15:48:15.568219
 Service - SberUslugi
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:30.359941
+DATE - 2023-01-18 15:48:15.901195
 Service - victoria
 Status_code - 500
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:30.722716
+DATE - 2023-01-18 15:48:16.208428
 Service - sunlight
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:31.063503
+DATE - 2023-01-18 15:48:16.742014
 Service - ok.ru
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:31.580184
+DATE - 2023-01-18 15:48:17.030238
 Service - citystar
-Status_code - 200
+Status_code - 404
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:32.280750
+DATE - 2023-01-18 15:48:17.542107
 Service - beerlogapizza
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:32.330719
+DATE - 2023-01-18 15:48:17.672713
 Service - dodopizza
-Status_code - Unknown
+Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:32.567572
+DATE - 2023-01-18 15:48:17.991930
 Service - dominopizza
 Status_code - 404
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:33.165201
+DATE - 2023-01-18 15:48:18.499722
 Service - pizzamia
 Status_code - 422
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:33.403054
+DATE - 2023-01-18 15:48:18.632216
 Service - lentaru
-Status_code - 404
+Status_code - 403
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:33.561956
+DATE - 2023-01-18 15:48:18.769535
 Service - sipnetru
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:33.991689
+DATE - 2023-01-18 15:48:18.923381
 Service - wildberries
 Status_code - 200
 ERROR:
 There is not
 
 
-DATE - 2022-09-16 16:10:34.385444
+DATE - 2023-01-18 15:48:19.094508
 Service - bandeatosru
 Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:19.247321
+Service - tinkoff
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:19.465867
+Service - findclone
+Status_code - 520
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:19.841880
+Service - tashirpizza
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:20.095478
+Service - my-shop
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:20.343745
+Service - moneyman
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:20.512372
+Service - bisonpizza
+Status_code - 400
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:20.741702
+Service - magnitapteka
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:20.872545
+Service - eldorado
+Status_code - 403
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:22.228799
+Service - kent
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:22.451325
+Service - polyana1c
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:22.633228
+Service - citystarwear
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:22.812470
+Service - vardex
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:23.131839
+Service - vesnashop
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:23.363583
+Service - beeline
+Status_code - 500
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:23.527155
+Service - lentacom
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:23.744256
+Service - mygames
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:23.888950
+Service - apteka-ot-sklada
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:25.712036
+Service - smartmed
+Status_code - 503
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:52.311964
+Service - sunlight
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:48:59.517229
+Service - apteka-ot-sklada
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:04.183122
+Service - citi_link
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:04.515427
+Service - yota
+Status_code - 401
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:05.691510
+Service - b_apteka
+Status_code - 500
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:06.080119
+Service - mir
+Status_code - 400
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:17.316524
+Service - totopizza
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:17.691225
+Service - zdesapteka
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:20.955050
+Service - victoria
+Status_code - 500
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:22.231129
+Service - ok.ru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:22.744337
+Service - beerlogapizza
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:22.986177
+Service - dodopizza
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:23.136781
+Service - dominopizza
+Status_code - 404
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:23.475965
+Service - pizzamia
+Status_code - 422
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:24.592021
+Service - lentaru
+Status_code - 403
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:24.693304
+Service - sipnetru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:24.828192
+Service - wildberries
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:24.971722
+Service - bandeatosru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:25.096544
+Service - tinkoff
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:25.309991
+Service - findclone
+Status_code - 520
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:25.678003
+Service - tashirpizza
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:25.808144
+Service - my-shop
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:25.908026
+Service - bisonpizza
+Status_code - 400
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:26.141571
+Service - magnitapteka
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:26.265179
+Service - eldorado
+Status_code - 403
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:27.824156
+Service - kent
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:28.033423
+Service - vesnashop
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:29.359762
+Service - sunlight
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:29.437761
+Service - smartmed
+Status_code - 503
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:49:34.672120
+Service - apteka-ot-sklada
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:50:02.228320
+Service - apteka.ru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:50:02.621799
+Service - magnit
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:50:02.852757
+Service - telegram
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:50:05.163965
+Service - sunlight
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:50:06.437905
+Service - pochtabank
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:50:09.994775
+Service - citi_link
+Status_code - 400
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:50:10.921670
+Service - yota
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:50:11.069735
+Service - b_apteka
+Status_code - 500
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:50:11.413522
+Service - mir
+Status_code - 400
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 15:50:11.583362
+Service - apteka-ot-sklada
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:47.576655
+Service - apteka.ru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:47.972547
+Service - magnit
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:48.204675
+Service - telegram
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:48.509801
+Service - citi_link
+Status_code - 429
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:49.059905
+Service - akbarsa
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:49.903645
+Service - yota
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:50.086777
+Service - b_apteka
+Status_code - 500
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:50.468460
+Service - mir
+Status_code - 400
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:50.729006
+Service - pochtabank
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:50.833191
+Service - mt_free
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:22:51.199808
+Service - megafon.tv
+Status_code - 429
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:23:01.342662
+Service - moezdorovie
+Status_code - Unknown
+ERROR:
+False
+
+
+DATE - 2023-01-18 17:23:01.892670
+Service - totopizza
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:23:02.258509
+Service - zdesapteka
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:23:03.404564
+Service - stockmann
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:28.712739
+Service - apteka.ru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:29.071968
+Service - magnit
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:29.279502
+Service - telegram
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:29.627439
+Service - citi_link
+Status_code - 429
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:29.898527
+Service - akbarsa
+Status_code - 400
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:30.524220
+Service - yota
+Status_code - 429
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:30.699265
+Service - b_apteka
+Status_code - 500
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:31.032327
+Service - mir
+Status_code - 400
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:31.300383
+Service - pochtabank
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:31.412185
+Service - mt_free
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:26:31.717939
+Service - megafon.tv
+Status_code - 429
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:28:00.608855
+Service - apteka.ru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:29:01.354908
+Service - apteka.ru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:32:15.347460
+Service - apteka.ru
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:32:15.747176
+Service - magnit
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:32:16.091560
+Service - telegram
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:32:16.464915
+Service - citi_link
+Status_code - 429
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:32:17.027931
+Service - akbarsa
+Status_code - 200
+ERROR:
+There is not
+
+
+DATE - 2023-01-18 17:32:17.644135
+Service - yota
+Status_code - 429
 ERROR:
 There is not
 
