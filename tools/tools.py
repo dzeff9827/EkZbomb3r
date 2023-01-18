@@ -327,7 +327,7 @@ def CFU():
 	clear()
 	if in_d:
 		anim_text("Проверяем обновления...", speed=0.050, color="magenta")
-		result = r.get("https://raw.githubusercontent.com/dzeff9827/EkZbomb3r/master/version.txt")
+		result = r.get("https://raw.githubusercontent.com/dzeff9827/EkZbomb3r/master/tools/version.txt")
 		last_ver = result.content.decode("utf-8")
 		a = open("tools/version.txt", "r")
 		current_ver = a.read()
