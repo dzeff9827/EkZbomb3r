@@ -200,42 +200,7 @@ class Proxy:
 
 		# https://free-proxy-list.net
 		# -----------------------------------------------
-		can = False
-		try:
-			response = requests.get("https://www.sslproxies.org", headers={"User-Agent": ua.random}, timeout=self.timeout)
-			can = True
-		except:
-			pass
-		if response.status_code == 200 or can == True:
-			"""Парсинг"""
-			html = BS(response.content, "html.parser")
-
-			all_list_bs = html.find("div", "table-responsive fpl-list").find("tbody")
-
-			pred_itog = []
-			for tr in all_list_bs:
-				for td in tr:
-					pred_itog.append(td.text.strip())
-				#print(pred_itog[2].lower())
-				if pred_itog[2].lower() not in self.country:
-					pred_itog = []
-					continue
-				if pred_itog[2].lower() in itog_2:
-					itog_2[pred_itog[2].lower()].append({"ip": pred_itog[0],
-														 "port": pred_itog[1]})
-				else:
-					itog_2[pred_itog[2].lower()] = []
-					itog_2[pred_itog[2].lower()].append({"ip": pred_itog[0],
-														 "port": pred_itog[1]})
-				pred_itog = []
-		self.list_2 = itog_2
-		bar.next()
-		# -----------------------------------------------
-
-		itog_3 = {"unk":[]}
-
-		# https://proxyscrape.com
-		# -----------------------------------------------
+		
 		if self.unknown == True:
 			can = False
 			try:
