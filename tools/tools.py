@@ -370,7 +370,7 @@ def start(number, country, proxy_=None):
 			else:
 				proxy_class = proxy.Proxy(country=[country])
 			proxy_class.get()
-			print("")
+			
 			print(colored("Проверка найденного списка прокси... (Не дольше 2х минут)", "yellow"))
 			proxy_class.verify()
 			if proxy_class.mix() == False:
