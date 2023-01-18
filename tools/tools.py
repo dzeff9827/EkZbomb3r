@@ -205,7 +205,7 @@ def start_input():
 	while True:
 		clear()
 		print("")
-		print(colored("[99] Отмена", "red"))
+		print(colored("[0] Отмена", "red"))
 		print("")
 		print(colored("[1]", "red"), colored("Беларусь +375", "magenta"))
 		print(colored("[2]", "red"), colored("Россия +7", "magenta"))
@@ -215,22 +215,22 @@ def start_input():
 			break
 		elif ct == "1":
 			break
-		elif ct == "99":
+		elif ct == "0":
 			return 0, 0, 0
 	while True:
 		clear()
 		print("")
-		print(colored("[99] Отмена", "red"))
+		print(colored("[0] Отмена", "red"))
 		print("")
 		numb = input(colored("Введите номер без кода страны "+country_code[ct]+" ", "red"))
 		if number_ckeck(numb):
 			break
-		elif numb == "99":
+		elif numb == "0":
 			return 0, 0, 0
 	while True:
 		clear()
 		print("")
-		print(colored("[99] Отмена", "red"))
+		print(colored("[0] Отмена", "red"))
 		print("")
 		print(colored("[1]", "red"), colored("Да", "magenta"))
 		print(colored("[2]", "red"), colored("Нет", "magenta"))
@@ -242,13 +242,13 @@ def start_input():
 			else:
 				pr = None
 			break
-		elif pr == "99":
+		elif pr == "0":
 			return 0, 0, 0
 	if pr != None:
 		while True:
 			clear()
 			print("")
-			print(colored("[99] Отмена", "red"))
+			print(colored("[0] Отмена", "red"))
 			print("")
 			print(colored("[1]", "red"), colored("Общедоступный прокси", "magenta"))
 			print(colored("Общедоступный прокси используют все пользователи EkZbomb3r", "cyan"))
@@ -261,14 +261,14 @@ def start_input():
 				if who_pr == "2":
 					clear()
 					print("")
-					print(colored("[99] Отмена", "red"))
+					print(colored("[0] Отмена", "red"))
 					print("")
 					print(colored("Введите Ip и Port и логин и пароль если прокси частный", "magenta"))
 					print("└"+colored("Пример:\n123.45.678.910:8080\n123.45.678.910:8080:LOGIN:PASSWORD", "magenta"))
 					print("")
 					new_pr = input(colored("~# ", "red"))
 					
-					if new_pr == "99":
+					if new_pr == "0":
 						return 0, 0, 0
 					elif len(new_pr.split(":")) < 3:
 						# Shared Proxy Check
